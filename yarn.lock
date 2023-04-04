@@ -30,21 +30,22 @@
   dependencies:
     babel-runtime "^6.11.6"
 
-"@atlassian/aui@^9.4.0":
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/@atlassian/aui/-/aui-9.4.0.tgz#21914f046f47612531b7d3ed64d9cc26d1326fcd"
-  integrity sha512-JhJsMXZQDZUicmPwDrTEuBnFcpqe7+T+TfoBDpQcyQAr2Aq9GuwQ+2KUU0P/CWiqlcZMKaPh8zukCb9I7F1Ckw==
+"@atlassian/aui@^9.5.1":
+  version "9.5.1"
+  resolved "https://registry.yarnpkg.com/@atlassian/aui/-/aui-9.5.1.tgz#90fd92e4f53124f2810d658bc59b4ebb53066c50"
+  integrity sha512-aaojKNjpW1WJoHD7yirIUeKzyzbY90HzHbKYbvLzLVvvQlhRZJ9v8SmrLKzF8d/axLwa92iR/pT3alZF/czqUQ==
   dependencies:
     "@atlassian/tipsy" "1.3.3"
     "@popperjs/core" "2.4.4"
-    backbone "1.4.0"
-    css.escape "1.5.0"
+    backbone "1.4.1"
+    css.escape "1.5.1"
+    dompurify "2.4.0"
     fancy-file-input "2.0.4"
-    jquery-ui "1.12.1"
+    jquery-ui "1.13.1"
     skatejs "0.13.17"
     skatejs-template-html "0.0.0"
     trim-extra-html-whitespace "1.3.0"
-    underscore "1.13.1"
+    underscore "1.13.4"
 
 "@atlassian/logger-interface@^2.0.0":
   version "2.0.0"
@@ -1759,10 +1760,10 @@ babel-runtime@^6.11.6:
     core-js "^2.4.0"
     regenerator-runtime "^0.11.0"
 
-backbone@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/backbone/-/backbone-1.4.0.tgz#54db4de9df7c3811c3f032f34749a4cd27f3bd12"
-  integrity sha512-RLmDrRXkVdouTg38jcgHhyQ/2zjg7a8E6sz2zxfz21Hh17xDJYUHBZimVIt5fUyS8vbfpeSmTL3gUjTEvUV3qQ==
+backbone@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/backbone/-/backbone-1.4.1.tgz#099a78184bc07b034048a8332229c2ccca1e3e62"
+  integrity sha512-ADy1ztN074YkWbHi8ojJVFe3vAanO/lrzMGZWUClIP7oDD/Pjy2vrASraUP+2EVCfIiTtCW4FChVow01XneivA==
   dependencies:
     underscore ">=1.8.3"
 
@@ -2361,10 +2362,10 @@ csrf@3.1.0:
     tsscmp "1.0.6"
     uid-safe "2.1.5"
 
-css.escape@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/css.escape/-/css.escape-1.5.0.tgz#95984d7887ce4ca90684e813966f42d1ef87ecea"
-  integrity sha1-lZhNeIfOTKkGhOgTlm9C0e+H7Oo=
+css.escape@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/css.escape/-/css.escape-1.5.1.tgz#42e27d4fa04ae32f931a4b4d4191fa9cddee97cb"
+  integrity sha512-YUifsXXuknHlUsmlgyY0PKzgPOr7/FjCePfHNt0jxm83wHZi44VDMQ7/fGNkjY3/jV1MC+1CmZbaHzugyeRtpg==
 
 cssom@^0.4.4:
   version "0.4.4"
@@ -2591,6 +2592,11 @@ domexception@^2.0.1:
   integrity sha512-yxJ2mFy/sibVQlu5qHjOkf9J3K6zgmCxgJ94u2EdvDOV09H+32LtRswEcUsmUWN72pVLOEnTSRaIVVzVQgS0dg==
   dependencies:
     webidl-conversions "^5.0.0"
+
+dompurify@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.4.0.tgz#c9c88390f024c2823332615c9e20a453cf3825dd"
+  integrity sha512-Be9tbQMZds4a3C6xTmz68NlMfeONA//4dOavl/1rNw50E+/QO0KVpbcU0PcaW0nsQxurXls9ZocqFxk8R2mWEA==
 
 dont-sniff-mimetype@1.1.0:
   version "1.1.0"
@@ -4612,10 +4618,17 @@ join-component@^1.1.0:
   resolved "https://packages.atlassian.com/api/npm/npm-remote/join-component/-/join-component-1.1.0.tgz#b8417b750661a392bee2c2537c68b2a9d4977cd5"
   integrity sha512-bF7vcQxbODoGK1imE2P9GS9aw4zD0Sd+Hni68IMZLj7zRnquH7dXUmMw9hDI5S/Jzt7q+IyTXN0rSg2GI0IKhQ==
 
-jquery-ui@1.12.1:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/jquery-ui/-/jquery-ui-1.12.1.tgz#bcb4045c8dd0539c134bc1488cdd3e768a7a9e51"
-  integrity sha1-vLQEXI3QU5wTS8FIjN0+dop6nlE=
+jquery-ui@1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/jquery-ui/-/jquery-ui-1.13.1.tgz#d0b7a42e73a04c31bb5706adf86f6f8942f64eaa"
+  integrity sha512-2VlU59N5P4HaumDK1Z3XEVjSvegFbEOQRgpHUBaB2Ak98Axl3hFhJ6RFcNQNuk9SfL6WxIbuLst8dW/U56NSiA==
+  dependencies:
+    jquery ">=1.8.0 <4.0.0"
+
+"jquery@>=1.8.0 <4.0.0":
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.4.tgz#ba065c188142100be4833699852bf7c24dc0252f"
+  integrity sha512-v28EW9DWDFpzcD9O5iyJXg3R3+q+mET5JhnjJzQUZMHOv67bpSIHq81GEYpPNZHG+XXHsfSme3nxp/hndKEcsQ==
 
 js-beautify@^1.8.8:
   version "1.13.13"
@@ -7479,7 +7492,12 @@ undefsafe@^2.0.5:
   resolved "https://registry.yarnpkg.com/undefsafe/-/undefsafe-2.0.5.tgz#38733b9327bdcd226db889fb723a6efd162e6e2c"
   integrity sha512-WxONCrssBM8TSPRqN5EmsjVrsv4A8X12J4ArBiiayv3DyyG3ZlIg6yysuuSYdZsVz3TKcTg2fd//Ujd4CHV1iA==
 
-underscore@1.13.1, underscore@>=1.8.3:
+underscore@1.13.4:
+  version "1.13.4"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.4.tgz#7886b46bbdf07f768e0052f1828e1dcab40c0dee"
+  integrity sha512-BQFnUDuAQ4Yf/cYY5LNrK9NCJFKriaRbD9uR1fTeXnBeoa97W0i41qkZfGO9pSo8I5KzjAcSY2XYtdf0oKd7KQ==
+
+underscore@>=1.8.3:
   version "1.13.1"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.1.tgz#0c1c6bd2df54b6b69f2314066d65b6cde6fcf9d1"
   integrity sha512-hzSoAVtJF+3ZtiFX0VgfFPHEDRm7Y/QPjGyNo4TVdnDTdft3tr8hEkD25a1jC+TjTuE7tkHGKkhwCgs9dgBB2g==
