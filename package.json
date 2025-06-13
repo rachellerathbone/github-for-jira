@@ -83,7 +83,7 @@
 		"launchdarkly-node-server-sdk": "^6.2.0",
 		"lodash": "^4.17.21",
 		"matchstick": "^1.2.1",
-		"minimatch": "^5.0.1",
+		"minimatch": "^10.0.2",
 		"moment": "^2.29.4",
 		"moo": "^0.5.0",
 		"optional-require": "^1.1.8",
